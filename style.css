@@ -1,73 +1,95 @@
-*{
-    border: 0px;
-    margin: 0px;
+#sm{
+    border: 1px solid black;
+    height: 150px;
 }
-#p1{
-    display: inline;
+#ca{
+    border: 1px solid black;
+    height: 150px;
+}
+#ww{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk1{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk2{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk3{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk4{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk5{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk6{
+    border: 1px solid black;
+    height: 150px;
+}
+#ca2{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk7{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk8{
+    border: 1px solid black;
+    height: 150px;
+}
+#hul{
+    border: 1px solid black;
+    height: 150px;
+}
+#dp{
+    border: 1px solid black;
+    height: 150px;
+}
+#bp{
+    border: 1px solid black;
+    height: 150px;
+}
+#ds{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk9{
+    border: 1px solid black;
+    height: 150px;
+}
+#uk10{
+    border: 1px solid black;
+    height: 150px;
+}
+#wa{
+    border: 1px solid black;
+    height: 150px;
+}
+#tha{
+    border: 1px solid black;
+    height: 150px;
+}
+
+
+
+.set1,.set2,.set3,.set4,.set5{
     display: flex;
-    text-align: center;
     justify-content: center;
-    /* display: grid;
-    grid-template-rows: repeat(2); */
-
 }
-h1{
+
+.s1,.s2,.s3,.s4,.s5{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
-    top: 100px;
-}
-#pair1{
-    display: inline;
-    display: flex;
+    top: 50px;
 }
 
-.sm{
-  width: 150px;
-  height: 200px;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-  
-
-}
-.ca{
-    width: 150px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    position: relative;
-    
-    
-  
-}
-#pair2{
-    display: inline;
-    display: flex;
-}
-.ww{
-    width: 150px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    
-  
-}
-.tha{
-    width: 150px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    
-}
-
-#h2{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: 500px;
-    background-color: black;
-    color: aqua;
-    font-family:Arial, Helvetica, sans-serif;
-}
