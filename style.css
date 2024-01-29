@@ -1,95 +1,29 @@
-#sm{
-    border: 1px solid black;
-    height: 150px;
-}
-#ca{
-    border: 1px solid black;
-    height: 150px;
-}
-#ww{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk1{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk2{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk3{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk4{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk5{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk6{
-    border: 1px solid black;
-    height: 150px;
-}
-#ca2{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk7{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk8{
-    border: 1px solid black;
-    height: 150px;
-}
-#hul{
-    border: 1px solid black;
-    height: 150px;
-}
-#dp{
-    border: 1px solid black;
-    height: 150px;
-}
-#bp{
-    border: 1px solid black;
-    height: 150px;
-}
-#ds{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk9{
-    border: 1px solid black;
-    height: 150px;
-}
-#uk10{
-    border: 1px solid black;
-    height: 150px;
-}
-#wa{
-    border: 1px solid black;
-    height: 150px;
-}
-#tha{
-    border: 1px solid black;
-    height: 150px;
+.main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    width: 100%;
+    gap: 50px;
+    margin-left: 25%;
 }
 
+.main div{
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
 
-
-.set1,.set2,.set3,.set4,.set5{
-    display: flex;
-    justify-content: center;
+.main div img{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .s1,.s2,.s3,.s4,.s5{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    top: 50px;
+    border: none;
 }
 
+h1{
+    width: 800px;
+}
